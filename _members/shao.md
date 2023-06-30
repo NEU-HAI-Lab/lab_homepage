@@ -3,7 +3,7 @@ layout: about
 inline: false
 group: Visiting Student
 group_rank: 3
-team_frontpage: false
+team_frontpage: true
 
 title: PhD Student at Shanghai Jiao Tong Univeristy
 description: 
