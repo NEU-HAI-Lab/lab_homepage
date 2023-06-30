@@ -40,23 +40,30 @@ layout: default
             {{ content }}
           </div>
 
+          
           <!-- News -->
           {% if page.news and site.announcements.enabled -%}
             <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit;">news</a></h2>
             {%- include news.html limit=true %}
           {%- endif %}
 
-          <!-- Latest posts -->
-          {% if page.latest_posts -%}
-            <h2><a href="{{ '/blog/' | relative_url }}" style="color: inherit;">latest posts</a></h2>
-            {%- include latest_posts.html %}
-          {%- endif %}
+           <!-- Social -->
+          {%- if page.team %}
+            <div class="team">
+              <div class="team-card">
+                {% include team.html %}
+              </div>
+            </div>
+          {%- endif %}         
 
           <!-- Selected papers -->
           {% if page.selected_papers -%}
             <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">selected publications</a></h2>
             {%- include selected_papers.html %}
           {%- endif %}
+
+           <!-- Dakuo's Twitter -->
+          <a class="twitter-timeline" data-width="1000" data-height="400" data-theme="dark" href="https://twitter.com/dakuowang?ref_src=twsrc%5Etfw">Tweets by dakuowang</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
           <!-- Social -->
           {%- if page.social %}
@@ -71,6 +78,7 @@ layout: default
 
             </div>
           {%- endif %}
+
         </article>
 
 </div>
