@@ -3,9 +3,9 @@ layout: about
 inline: false
 group: Faculty
 group_rank: 1
-team_frontpage: false
+team_frontpage: true
 
-title: 
+title: Faculty
 description: 
 lastname: Dakuo Wang
 

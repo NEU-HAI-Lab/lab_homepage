@@ -3,9 +3,9 @@ layout: about
 inline: false
 group: PhD Student
 group_rank: 2
-team_frontpage: false
+team_frontpage: true
 
-title: 
+title: PhD Student
 description: 
 lastname: Zhu 
 

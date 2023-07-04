@@ -3,9 +3,9 @@ layout: about
 inline: false
 group: Visiting Student
 group_rank: 3
-team_frontpage: false
+team_frontpage: true
 
-title: 
+title: Visiting Student
 description: 
 lastname: Yao 
 
