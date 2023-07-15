@@ -1,22 +1,64 @@
 ---
 ---
 
-@inproceedings{10.1145/3377325.3377501,
-  author = {Drozdal, Jaimie and Weisz, Justin and Wang, Dakuo and Dass, Gaurav and Yao, Bingsheng and Zhao, Changruo and Muller, Michael and Ju, Lin and Su, Hui},
-  title = {Trust in AutoML: Exploring Information Needs for Establishing Trust in Automated Machine Learning Systems},
-  year = {2020},
-  isbn = {9781450371186},
-  publisher = {Association for Computing Machinery},
-  address = {New York, NY, USA},
-  url = {https://doi.org/10.1145/3377325.3377501},
-  doi = {10.1145/3377325.3377501},
-  abstract = {We explore trust in a relatively new area of data science: Automated Machine Learning (AutoML). In AutoML, AI methods are used to generate and optimize machine learning models by automatically engineering features, selecting models, and optimizing hyperparameters. In this paper, we seek to understand what kinds of information influence data scientists' trust in the models produced by AutoML? We operationalize trust as a willingness to deploy a model produced using automated methods. We report results from three studies - qualitative interviews, a controlled experiment, and a card-sorting task - to understand the information needs of data scientists for establishing trust in AutoML systems. We find that including transparency features in an AutoML tool increased user trust and understandability in the tool; and out of all proposed features, model performance metrics and visualizations are the most important information to data scientists when establishing their trust with an AutoML tool.},
-  booktitle = {Proceedings of the 25th International Conference on Intelligent User Interfaces},
-  pages = {297–307},
-  numpages = {11},
-  keywords = {automated artificial intelligence, AutoAI, automated data science, AutoML, trust, automated machine learning, AutoDS},
-  location = {Cagliari, Italy},
-  series = {IUI '20}
+@inproceedings{10.1145/3544548.3581290,
+author = {Lam, Michelle S. and Ma, Zixian and Li, Anne and Freitas, Izequiel and Wang, Dakuo and Landay, James A. and Bernstein, Michael S.},
+title = {Model Sketching: Centering Concepts in Early-Stage Machine Learning Model Design},
+year = {2023},
+isbn = {9781450394215},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3544548.3581290},
+doi = {10.1145/3544548.3581290},
+abstract = {Machine learning practitioners often end up tunneling on low-level technical details like model architectures and performance metrics. Could early model development instead focus on high-level questions of which factors a model ought to pay attention to? Inspired by the practice of sketching in design, which distills ideas to their minimal representation, we introduce model sketching: a technical framework for iteratively and rapidly authoring functional approximations of a machine learning model’s decision-making logic. Model sketching refocuses practitioner attention on composing high-level, human-understandable concepts that the model is expected to reason over (e.g., profanity, racism, or sarcasm in a content moderation task) using zero-shot concept instantiation. In an evaluation with 17 ML practitioners, model sketching reframed thinking from implementation to higher-level exploration, prompted iteration on a broader range of model designs, and helped identify gaps in the problem formulation—all in a fraction of the time ordinarily required to build a model.},
+booktitle = {Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems},
+articleno = {741},
+numpages = {24},
+location = {Hamburg, Germany},
+series = {CHI '23}
+}
+
+@inproceedings{10.1145/3544548.3581219,
+author = {Jahanbakhsh, Farnaz and Katsis, Yannis and Wang, Dakuo and Popa, Lucian and Muller, Michael},
+title = {Exploring the Use of Personalized AI for Identifying Misinformation on Social Media},
+year = {2023},
+isbn = {9781450394215},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3544548.3581219},
+doi = {10.1145/3544548.3581219},
+abstract = {This work aims to explore how human assessments and AI predictions can be combined to identify misinformation on social media. To do so, we design a personalized AI which iteratively takes as training data a single user’s assessment of content and predicts how the same user would assess other content. We conduct a user study in which participants interact with a personalized AI that learns their assessments of a feed of tweets, shows its predictions of whether a user would find other tweets (in)accurate, and evolves according to the user feedback. We study how users perceive such an AI, and whether the AI predictions influence users’ judgment. We find that this influence does exist and it grows larger over time, but it is reduced when users provide reasoning for their assessment. We draw from our empirical observations to identify design implications and directions for future work.},
+booktitle = {Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems},
+articleno = {105},
+numpages = {27},
+keywords = {Social Media, Fact Checking, Misinformation, Democratized Content Moderation, Artificial Intelligence},
+location = {Hamburg, Germany},
+series = {CHI '23}
+}
+
+@article{isaza2023fairy,
+  title={Are Fairy Tales Fair? Analyzing Gender Bias in Temporal Narrative Event Chains of Children's Fairy Tales},
+  author={Isaza, Paulina Toro and Xu, Guangxuan and Oloko, Akintoye and Hou, Yufang and Peng, Nanyun and Wang, Dakuo},
+  journal={arXiv preprint arXiv:2305.16641},
+  year={2023}
+}
+
+@inproceedings{10.1145/3491102.3517615,
+author = {Zheng, Chengbo and Wang, Dakuo and Wang, April Yi and Ma, Xiaojuan},
+title = {Telling Stories from Computational Notebooks: AI-Assisted Presentation Slides Creation for Presenting Data Science Work},
+year = {2022},
+isbn = {9781450391573},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3491102.3517615},
+doi = {10.1145/3491102.3517615},
+abstract = {Creating presentation slides is a critical but time-consuming task for data scientists. While researchers have proposed many AI techniques to lift data scientists’ burden on data preparation and model selection, few have targeted the presentation creation task. Based on the needs identified from a formative study, this paper presents NB2Slides, an AI system that facilitates users to compose presentations of their data science work. NB2Slides uses deep learning methods as well as example-based prompts to generate slides from computational notebooks, and take users’ input (e.g., audience background) to structure the slides. NB2Slides also provides an interactive visualization that links the slides with the notebook to help users further edit the slides. A follow-up user evaluation with 12 data scientists shows that participants believed NB2Slides can improve efficiency and reduces the complexity of creating slides. Yet, participants questioned the future of full automation and suggested a human-AI collaboration paradigm.},
+booktitle = {Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems},
+articleno = {53},
+numpages = {20},
+keywords = {computational notebook, slides generation},
+location = {New Orleans, LA, USA},
+series = {CHI '22}
 }
 
 @inproceedings{10.1145/3491102.3517479,
@@ -37,3 +79,71 @@
   series = {CHI '22}
 }
 
+@inproceedings{yao-etal-2022-ais,
+    title = "It is {AI}{'}s Turn to Ask Humans a Question: Question-Answer Pair Generation for Children{'}s Story Books",
+    author = "Yao, Bingsheng  and
+      Wang, Dakuo  and
+      Wu, Tongshuang  and
+      Zhang, Zheng  and
+      Li, Toby  and
+      Yu, Mo  and
+      Xu, Ying",
+    booktitle = "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = may,
+    year = "2022",
+    address = "Dublin, Ireland",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.acl-long.54",
+    doi = "10.18653/v1/2022.acl-long.54",
+    pages = "731--744",
+    abstract = "Existing question answering (QA) techniques are created mainly to answer questions asked by humans. But in educational applications, teachers often need to decide what questions they should ask, in order to help students to improve their narrative understanding capabilities. We design an automated question-answer generation (QAG) system for this education scenario: given a story book at the kindergarten to eighth-grade level as input, our system can automatically generate QA pairs that are capable of testing a variety of dimensions of a student{'}s comprehension skills. Our proposed QAG model architecture is demonstrated using a new expert-annotated FairytaleQA dataset, which has 278 child-friendly storybooks with 10,580 QA pairs. Automatic and human evaluations show that our model outperforms state-of-the-art QAG baseline systems. On top of our QAG system, we also start to build an interactive story-telling application for the future real-world deployment in this educational scenario.",
+}
+
+@inproceedings{xu-etal-2022-fantastic,
+    title = "Fantastic Questions and Where to Find Them: {F}airytale{QA} {--} An Authentic Dataset for Narrative Comprehension",
+    author = "Xu, Ying  and
+      Wang, Dakuo  and
+      Yu, Mo  and
+      Ritchie, Daniel  and
+      Yao, Bingsheng  and
+      Wu, Tongshuang  and
+      Zhang, Zheng  and
+      Li, Toby  and
+      Bradford, Nora  and
+      Sun, Branda  and
+      Hoang, Tran  and
+      Sang, Yisi  and
+      Hou, Yufang  and
+      Ma, Xiaojuan  and
+      Yang, Diyi  and
+      Peng, Nanyun  and
+      Yu, Zhou  and
+      Warschauer, Mark",
+    booktitle = "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = may,
+    year = "2022",
+    address = "Dublin, Ireland",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.acl-long.34",
+    doi = "10.18653/v1/2022.acl-long.34",
+    pages = "447--460",
+    abstract = "Question answering (QA) is a fundamental means to facilitate assessment and training of narrative comprehension skills for both machines and young children, yet there is scarcity of high-quality QA datasets carefully designed to serve this purpose. In particular, existing datasets rarely distinguish fine-grained reading skills, such as the understanding of varying narrative elements. Drawing on the reading education research, we introduce FairytaleQA, a dataset focusing on narrative comprehension of kindergarten to eighth-grade students. Generated by educational experts based on an evidence-based theoretical framework, FairytaleQA consists of 10,580 explicit and implicit questions derived from 278 children-friendly stories, covering seven types of narrative elements or relations. Our dataset is valuable in two folds: First, we ran existing QA models on our dataset and confirmed that this annotation helps assess models{'} fine-grained learning skills. Second, the dataset supports question generation (QG) task in the education domain. Through benchmarking with QG models, we show that the QG model trained on FairytaleQA is capable of asking high-quality and more diverse questions.",
+}
+
+@inproceedings{10.1145/3377325.3377501,
+  author = {Drozdal, Jaimie and Weisz, Justin and Wang, Dakuo and Dass, Gaurav and Yao, Bingsheng and Zhao, Changruo and Muller, Michael and Ju, Lin and Su, Hui},
+  title = {Trust in AutoML: Exploring Information Needs for Establishing Trust in Automated Machine Learning Systems},
+  year = {2020},
+  isbn = {9781450371186},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3377325.3377501},
+  doi = {10.1145/3377325.3377501},
+  abstract = {We explore trust in a relatively new area of data science: Automated Machine Learning (AutoML). In AutoML, AI methods are used to generate and optimize machine learning models by automatically engineering features, selecting models, and optimizing hyperparameters. In this paper, we seek to understand what kinds of information influence data scientists' trust in the models produced by AutoML? We operationalize trust as a willingness to deploy a model produced using automated methods. We report results from three studies - qualitative interviews, a controlled experiment, and a card-sorting task - to understand the information needs of data scientists for establishing trust in AutoML systems. We find that including transparency features in an AutoML tool increased user trust and understandability in the tool; and out of all proposed features, model performance metrics and visualizations are the most important information to data scientists when establishing their trust with an AutoML tool.},
+  booktitle = {Proceedings of the 25th International Conference on Intelligent User Interfaces},
+  pages = {297–307},
+  numpages = {11},
+  keywords = {automated artificial intelligence, AutoAI, automated data science, AutoML, trust, automated machine learning, AutoDS},
+  location = {Cagliari, Italy},
+  series = {IUI '20}
+}
