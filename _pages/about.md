@@ -1,5 +1,6 @@
 ---
 layout: about
+title_t: about
 title: about
 permalink: /
 subtitle: <a href='#'>Northeastern University</a>. 
