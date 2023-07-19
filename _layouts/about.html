@@ -48,8 +48,9 @@ layout: default
           {%- endif %}
 
           <!-- Team -->
+            <h2><a href="{{ '/team/' | relative_url }}" style="color: inherit;">team</a></h2>
           {% assign members = site.members | where: "team_frontpage", true | sort: "group" %}
-          <div class="d-flex flex-wrap align-content-stretch justify-content-center m-n2 pt-5 no-gutters">
+            <div class="d-flex flex-wrap align-content-stretch justify-content-center m-n2  no-gutters" style="padding-top: 20px;">
               {% for member in members %}
                   {% assign colsMod6 = forloop.length | modulo: 6 %}
                   {% assign colIdMod4 = forloop.index | modulo: 4 %}
@@ -65,7 +66,7 @@ layout: default
                       </a>
                   </div>
               {% endfor %}
-          </div>        
+             </div>    
 
           <!-- Selected papers -->
           {% if page.selected_papers -%}
@@ -74,7 +75,7 @@ layout: default
           {%- endif %}
 
            <!-- Dakuo's Twitter -->
-          <a class="twitter-timeline" data-width="1000" data-height="400" data-theme="dark" href="https://twitter.com/dakuowang?ref_src=twsrc%5Etfw">Tweets by dakuowang</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+          <!-- <a class="twitter-timeline" data-width="1000" data-height="400" data-theme="dark" href="https://twitter.com/dakuowang?ref_src=twsrc%5Etfw">Tweets by dakuowang</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> -->
 
           <!-- Social -->
           {%- if page.social %}
