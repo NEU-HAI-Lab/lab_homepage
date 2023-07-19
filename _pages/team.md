@@ -11,8 +11,7 @@ nav_order: 1
 
 {% assign groups = site.members | sort: "group_rank" | map: "group" | uniq %}
 {% for group in groups %}
-## {{ group }}
-
+<h2  style="padding-top: 30px;"> {{ group }} </h2>
     {% assign members = site.members | sort: "lastname" | where: "group", group %}
     {% for member in members %}
 <p>
