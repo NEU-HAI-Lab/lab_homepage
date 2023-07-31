@@ -53,7 +53,7 @@ navbar_fixed: true
 footer_fixed: true
 
 # Dimensions
-max_width: 1800px
+max_width: 1200px
 
 # TODO: add layout settings (single page vs. multi-page)
 
@@ -151,7 +151,7 @@ giscus:
   lang: en
 
 # Disqus comments (DEPRECATED)
-disqus_shortname: al-folio # put your disqus shortname
+# disqus_shortname: al-folio # put your disqus shortname
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # External sources.
@@ -274,8 +274,8 @@ jekyll-minifier:
 
 scholar:
 
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Wang]
+  first_name: [Dakuo]
 
   style: apa
   locale: en
