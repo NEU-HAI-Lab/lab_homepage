@@ -20,7 +20,7 @@ profile:
     twitter: 
     github: 
     email: 
-    website: https://xiuqi0902.com  yuxuan.lu 
+    website: https://xiuqi0902.com 
     orcid: 
     address: >
         College of Art, Media and Design<br />
