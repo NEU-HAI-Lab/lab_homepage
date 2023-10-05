@@ -13,3 +13,56 @@ $max-content-width: {{ site.max_width }};
   "base",
   "distill"
 ;
+
+.slider-container {
+  display: flex;
+  overflow-x: scroll;
+  width: 100%;
+  scroll-snap-type: x mandatory;
+  margin-bottom: 50px;
+}
+
+.card-container {
+  min-width: 33.33%;
+  scroll-snap-align: start;
+}
+
+.card {
+  min-height: 400px; 
+}
+
+.team-row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;  
+}
+
+.team-card {
+  width: 20%; 
+  margin: 0 2.5%;  
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.team-card:hover {
+  transform: scale(1.05);
+}
+
+.team-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.team-card a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.team-card > a > div {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #f7f7f7;
+}
+
