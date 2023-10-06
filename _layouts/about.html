@@ -57,8 +57,7 @@ layout: default
           href="{{ item.url | append: project.title | relative_url }}"
           class="no-decoration"
         >
-          <div class="card hoverable h-100 m-2">
-            <!-- <img src="{{ '/assets/img/' | append: member.profile.image | relative_url }}" class="card-img-top" alt="{{ member.profile.name }}" /> -->
+          <div class="card hoverable h-100 card-narrow m-2">
             <div class="card-body p-2">
               <h5 class="card-title m-0" style="padding-left: 10px">
                 {{ project.title }}
@@ -73,25 +72,40 @@ layout: default
 
     <!-- Team -->
     <h2>
-      <a href="{{ '/team/' | relative_url }}" style="color: inherit">team</a>
+      <a href="{{ '/team/' | relative_url }}" style="color: inherit">Team</a>
     </h2>
 
     <div class="container">
       <!-- Professor -->
       <div class="row justify-content-center" style="padding-top: 20px">
         {% assign professor = site.members | where:"group", "Faculty" | first %}
-        <div class="col-12 col-md-4 mb-3">
+        <div class="col-12 col-md-3 mb-3">
           <a href="{{ professor.profile.website }}" class="no-decoration">
-            <div class="card hoverable h-100 m-2 text-center">
+            <div
+              class="card hoverable m-2 text-center team-card-long"
+              style="height: 250px"
+            >
               <img
-                src="{{ '/assets/img/' | append: professor.profile.image | relative_url }}"
-                class="card-img-top mx-auto"
+                src="{{ professor.profile.image | default: '/assets/img/default-avatar.jpg' | prepend: '/assets/img/' | relative_url }}"
+                class="card-img-top mx-auto mt-5"
                 alt="{{ professor.profile.name }}"
-                style="height: 80%; object-fit: cover; display: block"
+                style="
+                  height: 120px;
+                  width: 120px;
+                  object-fit: cover;
+                  border-radius: 50%;
+                "
               />
               <div class="card-body">
-                <h5 class="card-title m-0">{{ professor.profile.name }}</h5>
-                <p class="card-text">{{ professor.title }}</p>
+                <h5
+                  class="card-title m-0"
+                  style="height: 50px; margin-top: 15px"
+                >
+                  {{ professor.profile.name }}
+                </h5>
+                <p class="card-text" style="margin-top: 5px">
+                  {{ professor.title }}
+                </p>
               </div>
             </div>
           </a>
@@ -102,18 +116,33 @@ layout: default
       <div class="row justify-content-center">
         {% assign students = site.members | where_exp: "member", "member.group
         != 'Faculty'" %} {% for student in students %}
-        <div class="col-6 col-md-3 mb-3">
+        <div class="col-6 col-md-2 mb-3">
           <a href="{{ student.profile.website }}" class="no-decoration">
-            <div class="card hoverable h-100 m-2 text-center">
+            <div
+              class="card hoverable m-2 text-center team-card-short"
+              style="height: 250px"
+            >
               <img
-                src="{{ '/assets/img/' | append: student.profile.image | relative_url }}"
-                class="card-img-top mx-auto"
+                src="{{ student.profile.image | default: '/assets/img/default-avatar.jpg' | prepend: '/assets/img/' | relative_url }}"
+                class="card-img-top mx-auto mt-4"
                 alt="{{ student.profile.name }}"
-                style="height: 80%; object-fit: cover; display: block"
+                style="
+                  height: 100px;
+                  width: 100px;
+                  object-fit: cover;
+                  border-radius: 50%;
+                "
               />
               <div class="card-body">
-                <h5 class="card-title m-0">{{ student.profile.name }}</h5>
-                <p class="card-text">{{ student.title }}</p>
+                <h5
+                  class="card-title m-0"
+                  style="height: 50px; margin-top: 15px"
+                >
+                  {{ student.profile.name }}
+                </h5>
+                <p class="card-text" style="margin-top: 5px">
+                  {{ student.title }}
+                </p>
               </div>
             </div>
           </a>

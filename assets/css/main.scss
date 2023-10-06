@@ -23,9 +23,11 @@ $max-content-width: {{ site.max_width }};
 }
 
 .card-container {
-  min-width: 33.33%;
+  min-width: 30%;
   scroll-snap-align: start;
 }
+
+
 
 .card {
   min-height: 400px; 
@@ -66,3 +68,28 @@ $max-content-width: {{ site.max_width }};
   background-color: #f7f7f7;
 }
 
+.card-narrow {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 10px;
+}
+
+// .card-narrow {
+//   width: 90%;   
+//   margin-left: 5%;  
+//   margin-right: 5%;  
+// }
+
+// .team-card-short {
+//   height: 147px !important;
+// }
+
+.team-card-long {
+  height: 300px;
+  min-height: 300px;
+}
+
+.team-card-short {
+  height: 250px;
+  min-height: 250px;
+}
