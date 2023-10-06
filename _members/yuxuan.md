@@ -6,24 +6,22 @@ group_rank: 2
 team_frontpage: true
 
 title: PhD Student
-description: 
-lastname: Lu 
+description:
+lastname: Lu
 
 teaser: >
-    
-
 
 profile:
-    name: Yuxuan Lu #your fullname here
-    align: right
-    image: 
-    twitter: 
-    github: 
-    email: 
-    website: https://yuxuan.lu 
-    orcid: 
-    address: >
-        Khoury College of Computer Sciences<br />
-        440 Huntington Avenue, 202 West Village H<br />
-        Boston, MA 02115
+  name: Yuxuan Lu #your fullname here
+  align: right
+  image: 5.jpg
+  twitter:
+  github:
+  email:
+  website: https://yuxuan.lu
+  orcid:
+  address: >
+    Khoury College of Computer Sciences<br />
+    440 Huntington Avenue, 202 West Village H<br />
+    Boston, MA 02115
 ---

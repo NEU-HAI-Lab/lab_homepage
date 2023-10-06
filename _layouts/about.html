@@ -82,14 +82,16 @@ layout: default
         {% assign professor = site.members | where:"group", "Faculty" | first %}
         <div class="col-12 col-md-4 mb-3">
           <a href="{{ professor.profile.website }}" class="no-decoration">
-            <div class="card hoverable h-100 m-2">
+            <div class="card hoverable h-100 m-2 text-center">
               <img
                 src="{{ '/assets/img/' | append: professor.profile.image | relative_url }}"
-                class="card-img-top"
+                class="card-img-top mx-auto"
                 alt="{{ professor.profile.name }}"
+                style="height: 80%; object-fit: cover; display: block"
               />
-              <div class="card-body p-2">
-                <div class="card-title m-0">{{ professor.title }}</div>
+              <div class="card-body">
+                <h5 class="card-title m-0">{{ professor.profile.name }}</h5>
+                <p class="card-text">{{ professor.title }}</p>
               </div>
             </div>
           </a>
@@ -102,14 +104,16 @@ layout: default
         != 'Faculty'" %} {% for student in students %}
         <div class="col-6 col-md-3 mb-3">
           <a href="{{ student.profile.website }}" class="no-decoration">
-            <div class="card hoverable h-100 m-2">
+            <div class="card hoverable h-100 m-2 text-center">
               <img
                 src="{{ '/assets/img/' | append: student.profile.image | relative_url }}"
-                class="card-img-top"
+                class="card-img-top mx-auto"
                 alt="{{ student.profile.name }}"
+                style="height: 80%; object-fit: cover; display: block"
               />
-              <div class="card-body p-2">
-                <div class="card-title m-0">{{ student.title }}</div>
+              <div class="card-body">
+                <h5 class="card-title m-0">{{ student.profile.name }}</h5>
+                <p class="card-text">{{ student.title }}</p>
               </div>
             </div>
           </a>
