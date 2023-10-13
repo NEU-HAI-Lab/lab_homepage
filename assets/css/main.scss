@@ -14,7 +14,7 @@ $max-content-width: {{ site.max_width }};
   "distill"
 ;
 
-.slider-container {
+.about-page .slider-container {
   display: flex;
   overflow-x: scroll;
   width: 100%;
@@ -22,74 +22,62 @@ $max-content-width: {{ site.max_width }};
   margin-bottom: 50px;
 }
 
-.card-container {
+.about-page .card-container {
   min-width: 30%;
   scroll-snap-align: start;
 }
 
-
-
-.card {
+.about-page .card {
   min-height: 400px; 
 }
 
-.team-row {
+.about-page .team-row {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   margin-bottom: 20px;  
 }
 
-.team-card {
+.about-page .team-card {
   width: 20%; 
   margin: 0 2.5%;  
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s;
 }
 
-.team-card:hover {
+.about-page .team-card:hover {
   transform: scale(1.05);
 }
 
-.team-card img {
+.about-page .team-card img {
   width: 100%;
   height: auto;
   display: block;
 }
 
-.team-card a {
+.about-page .team-card a {
   text-decoration: none;
   color: inherit;
 }
 
-.team-card > a > div {
+.about-page .team-card > a > div {
   text-align: center;
   padding: 10px 0;
   background-color: #f7f7f7;
 }
 
-.card-narrow {
+.about-page .card-narrow {
   width: 90%;
   margin-left: 5%;
   margin-right: 10px;
 }
 
-// .card-narrow {
-//   width: 90%;   
-//   margin-left: 5%;  
-//   margin-right: 5%;  
-// }
-
-// .team-card-short {
-//   height: 147px !important;
-// }
-
-.team-card-long {
+.about-page .team-card-long {
   height: 300px;
   min-height: 300px;
 }
 
-.team-card-short {
+.about-page .team-card-short {
   height: 250px;
   min-height: 250px;
 }
