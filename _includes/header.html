@@ -5,13 +5,6 @@
     class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}"
   >
     <div class="container">
-      <!-- Social Icons -->
-      <div class="navbar-brand social">{% include social.html %}</div>
-
-      <!-- Neu Icon -->
-      <!-- <li style="list-style-type: none">
-        <img src="/assets/img/khoury.png" style="width: 350px" />
-      </li> -->
       <svg
         aria-label="Northeastern University"
         title="Northeastern University"
@@ -26,10 +19,11 @@
           fill="currentColor"
         />
       </svg>
-      {% if page.permalink != '/' -%}
+      {% if page.permalink != '/' %}
       <a
         class="navbar-brand title font-weight-lighter"
         href="{{ site.baseurl }}/"
+        style="position: absolute; left: 45%; transform: translateX(-50%)"
       >
         {%- if site.title == "blank" -%} {%- if site.first_name -%}
         <span class="font-weight-bold">{{- site.first_name -}}&nbsp;</span>
