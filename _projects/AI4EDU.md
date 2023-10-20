@@ -1,13 +1,20 @@
 ---
 layout: page
 title: Human-AI Collaboration For Education
-description: a project with a background image
+description: This project aims to investigate how to encourage the teaching/learning process between teachers and students through these real-world AI system.
 img: assets/img/12.jpg
 importance: 1
 category: work
 project_frontpage: true
-short_intro: Every project has a beautiful feature showcase page.It's easy to include images in a flexible 3-column grid format.Make your photos 1/3, 2/3, or full width.
+short_intro: There is a cross-campus livestreaming classroom paradigm of students from different geo-locations can take the same course simultaneously, we wish to design novel Human-AI system to support and satisfied all the stakeholders during this paradigm.
+
 ---
+
+Recently, Northeastern post a novel cross-campus livestreaming classroom paradigm---students from different geo-locations can take the same course simultaneously, with one class being taught in person by the lecturer and the other classes joining via live-streaming at different campuses with an in-person teaching assistant (TA).
+
+Our study aims to bridge this gap through a multi-site in-field observation study and a semi-structured interview at four Northeastern campuses (Boston, Bay Area, Seattle, and Vancouver). We expect to derive insights for new pedagogical practices and novel technological innovations (in particular LLM-based AI) to accommodate an intelligent and efficient remote education paradigm and the sustainable growth of the global network at Northeastern University.
+
+
 
 <!-- 
 Every project has a beautiful feature showcase page.
