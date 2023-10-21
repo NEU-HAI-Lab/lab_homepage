@@ -81,3 +81,10 @@ $max-content-width: {{ site.max_width }};
   height: 250px;
   min-height: 250px;
 }
+
+.publication-image {
+  max-width: 180px;
+  max-height: 180px;
+  display: block;
+  margin: 0 auto;
+}
