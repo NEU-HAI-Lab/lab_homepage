@@ -1,11 +1,11 @@
 ---
 layout: about
 inline: false
-group: PhD Student
-group_rank: 2
+group: Visiting Student
+group_rank: 3
 team_frontpage: true
 
-title: PhD Student
+title: Visiting Student
 description:
 lastname: Zhang
 publications:
