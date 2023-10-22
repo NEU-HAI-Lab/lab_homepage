@@ -2,7 +2,7 @@
 layout: about
 inline: false
 group: Visiting Student
-group_rank: 3
+group_rank: 2
 team_frontpage: true
 
 title: Visiting Student
