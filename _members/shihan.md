@@ -1,8 +1,8 @@
 ---
 layout: about
 inline: false
-group: Research Assistant
-group_rank: 4
+group: PhD Student
+group_rank: 3
 team_frontpage: true
 
 title: Ph.D. Student
@@ -10,7 +10,8 @@ description:
 lastname: Fu
 
 teaser: >
-  HI! I’m Shihan, a current CS Ph.D. student at Northeastern University.
+  Shihan is a first-year Ph.D. student at Northeastern University in Computer Science, advised by Dakuo Wang. 
+  His research interest lies in human-AI interaction and AI for healthcare.
 
 
 profile:
@@ -21,7 +22,7 @@ profile:
   twitter: Shihan1420876
   github: shihanfu
   email: fu.shiha@northeastern.edu
-  website: shihanfu.com
+  website: https://shihanfu.com
   orcid: 0009-0005-3019-6600
   address: >
     Khoury College of Computer Sciences<br />
