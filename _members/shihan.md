@@ -5,21 +5,22 @@ group: Research Assistant
 group_rank: 4
 team_frontpage: true
 
-title: Research Assistant
+title: Ph.D. Student
 description:
-lastname: Fan
+lastname: Fu
 
 teaser: >
-  HI! I’m Shihan, an MPhil student majoring in computational media and arts (CMA) from the Hong Kong University of Science and Technology. My research interest includes Human-Computer Interaction, Accessibility, Human-AI collaboration, Virtual Reality, and Social Computing.
+  HI! I’m Shihan, a current CS Ph.D. student at Northeastern University.
+
 
 profile:
-  name: Shihan Fan #your fullname here
+  name: Shihan Fu #your fullname here
   align: right
   image: /team/shihan.jpg
   role: Research Assistant
   twitter: Shihan1420876
   github: shihanfu
-  email: shihanfu870@gmail.com
+  email: fu.shiha@northeastern.edu
   website: shihanfu.com
   orcid: 0009-0005-3019-6600
   address: >
