@@ -10,11 +10,7 @@ description: Wenbo is a Master student in Computer Science at University of Sout
 lastname: Li
 
 teaser: >
-  Put your description here. Can be multiple paragraphs.
-  Firstname Lastname is a Ph.D. student in Cat Petting.
-  His/Her research interest lies in Feeding, Grooming, and Playing with Cats.
-  He/She is a cat lover.
-  He/She is also interested in Skiing.
+Wenbo is a Master student in Computer Science at University of Southern California. His research interests lie in Human-Computer Interaction, especially how to improve user interfaces between human and Large Language Models.
 profile:
   name: Wenbo Li
   align: right
