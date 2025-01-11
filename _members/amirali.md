@@ -15,7 +15,7 @@ profile:
   name: AmirAli Amini
   align: right
   image: /team/amirali_avatar.png
-  twitter: <your_twitter_handle>
+  twitter: # leave blank if you don't have one
   github: Amir-Ali-Amini
   email: am.amini@northeastern.edu
   website: # leave blank if you don't have one
