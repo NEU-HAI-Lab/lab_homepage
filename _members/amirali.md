@@ -5,7 +5,7 @@ group: Research Assistant
 group_rank: 0 # do not change this
 team_frontpage: true
 
-title: Bachelor’s Student
+title: Research Assistant
 description:
 lastname: Amini
 
