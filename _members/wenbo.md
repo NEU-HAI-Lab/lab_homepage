@@ -10,7 +10,7 @@ description:
 lastname: Li
 
 teaser: >
-  Wenbo is a Master student in computer science and University of Southern California. His research interests lie in human-computer interaction, especially user interfaces for human-LLM interaction and human-AI collaboration
+  Wenbo is a Master student in computer science at University of Southern California. His research interests lie in human-computer interaction, especially user interfaces for human-LLM interaction and human-AI collaboration
 profile:
   name: Wenbo Li #your fullname here
   align: right
