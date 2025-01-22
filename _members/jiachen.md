@@ -10,7 +10,8 @@ description:
 lastname: Li
 
 teaser: >
-Jiachen Li is a Computer Science PhD student at Northeastern University, advised by Prof. Beth Mynatt and Prof. Varun Mishra. Her research interests lie at the intersection of health, ubiComp and AI using HCI methods, with a focus on the older adult population.
+  Jiachen Li is a Computer Science PhD student at Northeastern University, advised by Prof. Beth Mynatt and Prof. Varun Mishra. 
+  Her research interests lie at the intersection of health, ubiComp and AI using HCI methods, with a focus on the older adult population.
 profile:
   name: Jiachen Li #your fullname here
   align: right
