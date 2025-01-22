@@ -1,21 +1,21 @@
 ---
 layout: about
 inline: false
-group: PhD Student
-group_rank: 3
+group: Postdoc
+group_rank: 2
 team_frontpage: true
 
-title: Visiting Student
+title: Postdoc Associate
 description:
 lastname: Yao
 
 teaser: >
-  He's a fifth-year Ph.D. candidate at Rensselaer Polytechnic Institute (Advisor: Prof. Jim Hendler) in Computer Science. His research interests lie at the intersection of NLP and HCI, currently focusing on enhancing human-AI collaborative workflow in various real-world scenarios.
+  Bingsheng 'Arthur' Yao earned his Ph.D. in Computer Science at Rensselaer Polytechnic Institute (Advisor: Prof. Jim Hendler). His research centers on the intersection of NLP and HCI, with a particular focus on Use-Inspired AI. Arthur strives to responsibly design human-centered AI systems with advanced domain-specific NLP technologies to support stakeholders’ collaboration in real-world scenarios, such as medical, healthcare, and education.
 
 profile:
-  name: Bingsheng 'Arthur' Yao #your fullname here
+  name: Bingsheng 'Arthur' Yao 
   align: right
-  image: 4.jpg
+  image: 
   twitter:
   github:
   email:
