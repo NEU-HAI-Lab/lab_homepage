@@ -14,7 +14,7 @@ teaser: >
 profile:
   name: Yuqi Hu #your fullname here
   align: right
-  image: /team/yuqi.png
+  image: /team/yuqi.jpg
   twitter: # leave blank if you don't have one
   github: yuqihu1103 # leave blank if you don't have one
   email: hu.yuqi@northeastern.edu # leave blank if you don't have one
