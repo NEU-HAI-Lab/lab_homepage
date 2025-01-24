@@ -1,3 +1,4 @@
+---
 layout: about
 inline: false
 group: Research Assistant # One of the following: "Faculty", "Postdoc", "PhD Student", "Visiting Scholar/Student", "Research Assistant"
@@ -24,3 +25,4 @@ profile:
     Khoury College of Computer Sciences<br />
     440 Huntington Avenue, 310C West Village H<br />
     Boston, MA 02115
+---
