@@ -14,7 +14,7 @@ teaser: >
 profile:
   name: Menglin Zhao #your fullname here
   align: right
-  image: /team/<menglin>.png
+  image: /team/menglin.png
   twitter: <> # leave blank if you don't have one
   github: <> # leave blank if you don't have one
   email: <zhao.mengl@northeastern.edu> # leave blank if you don't have one
