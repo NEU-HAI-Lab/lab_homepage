@@ -1,7 +1,7 @@
 ---
 layout: about
 inline: false
-group: EXAMPLE GROUP # One of the following: "Faculty", "Postdoc", "PhD Student", "Visiting Scholar/Student", "Research Assistant"
+group: "Research Assistant"
 group_rank: 0 # do not change this
 team_frontpage: true
 
