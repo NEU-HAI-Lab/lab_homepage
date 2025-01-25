@@ -16,7 +16,7 @@ teaser: >
 profile:
   name: Ziyi Wang #your fullname here
   align: right
-  image: /team/ziyi.png
+  image: /team/Ziyi.jpg
   twitter:  # leave blank if you don't have one
   github: Ziyiii0-0 # leave blank if you don't have one
   email: wang.ziyi19@northeastern.edu # leave blank if you don't have one
