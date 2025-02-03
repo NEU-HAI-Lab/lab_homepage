@@ -10,7 +10,7 @@ description:
 lastname: Yang
 
 teaser: >
-  Hi, I am currently a master's student at University of Michigan School of Information (I am graduating Dec. 2023 and applying for Fall24 PhD). I am interested in HCI research in human-AI interaction, computer-supported collaborative work, and health interventions and behavior change.
+  Ziqi is currently a PhD student in Informatics at University of California, Irvine. My research interests lies at the intersection of human-computer interaction and personal health informatics.
 
 profile:
   name: Ziqi Yang #your fullname here
@@ -18,11 +18,11 @@ profile:
   image: /team/ziqi.jpg
   twitter: EugeniaYang10
   github: EugeniaYang
-  email: yangziqi@umich.edu
+  email: ziqiy30@uci.edu
   website: https://eugeniayang.github.io/
   orcid:
   address: >
-    Khoury College of Computer Sciences<br />
-    440 Huntington Avenue, 202 West Village H<br />
-    Boston, MA 02115
+    Donald Bren School of Information and Computer Science<br />
+    University of California, Irvine<br />
+    Irvine, CA 92697
 ---
