@@ -121,10 +121,13 @@ layout: default
           </a>
         </div>
       </div>
-      {% assign groups = site.members | sort: "group_rank" | map: "group" | uniq | where_exp: "group", "group != 'EXAMPLE GROUP'" | where_exp: "group", "group != 'Faculty'" %}
+      <!-- {% assign groups = site.members | sort: "group_rank" | map: "group" | uniq | where_exp: "group", "group != 'EXAMPLE GROUP'" | where_exp: "group", "group != 'Faculty'" %} -->
+      {% assign groups = "Postdoc,PhD Student,Visiting Scholar,Visiting Student,Research Assistant" | split: "," %}
       {% for group in groups %}
-        <h2 style="text-align: center">{{ group }}</h2>
-        <div class="row justify-content-center">
+        {% assign group_members = site.members | where_exp: "member", "member.group == group" %}
+        {% if group_members.size > 0 %}
+          <h2 style="text-align: center">{{ group }}</h2>
+          <div class="row justify-content-center">
           {% assign members = site.members | where_exp: "member",
           "member.group == group" %} {% for member in members %}
           <div class="col-6 col-md-2 mb-3">
@@ -164,6 +167,7 @@ layout: default
           </div>
           {% endfor %}
         </div>
+        {% endif %}
       {% endfor %}
     </div>
 

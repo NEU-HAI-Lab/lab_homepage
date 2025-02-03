@@ -24,8 +24,10 @@ nav_order: 1
 }
 </style>
 
-{% assign groups = site.members | sort: "group_rank" | map: "group" | uniq | where_exp: "group", "group != 'EXAMPLE GROUP'" %}
+{% assign groups = "Faculty,Postdoc,PhD Student,Visiting Scholar,Visiting Student,Research Assistant" | split: "," %}
 {% for group in groups %}
+{% assign group_members = site.members | where_exp: "member", "member.group == group" %}
+{% if group_members.size > 0 %}
 
 <h2 style="padding-top: 30px;">{{ group }}</h2>
     {% assign members = site.members | sort: "lastname" | where: "group", group %}
@@ -75,4 +77,5 @@ nav_order: 1
     </div>
 </div>
     {% endfor %}
+{% endif %}
 {% endfor %}

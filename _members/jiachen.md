@@ -1,11 +1,11 @@
 ---
 layout: about
 inline: false
-group: Research Assistant
+group: Visiting Student
 group_rank: 4
 team_frontpage: true
 
-title: Research Assistant
+title: PhD Student
 description: 
 lastname: Li
 
