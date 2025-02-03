@@ -1,7 +1,7 @@
 ---
 layout: about
 inline: false
-group: Research Assistant
+group: Alumni
 group_rank: 4
 team_frontpage: true
 title: Research Assistant

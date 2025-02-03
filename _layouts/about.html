@@ -122,7 +122,7 @@ layout: default
         </div>
       </div>
       <!-- {% assign groups = site.members | sort: "group_rank" | map: "group" | uniq | where_exp: "group", "group != 'EXAMPLE GROUP'" | where_exp: "group", "group != 'Faculty'" %} -->
-      {% assign groups = "Postdoc,PhD Student,Visiting Scholar,Visiting Student,Research Assistant" | split: "," %}
+      {% assign groups = "Postdoc,PhD Student,Visiting Scholar,Visiting Student,Research Assistant,Alumni" | split: "," %}
       {% for group in groups %}
         {% assign group_members = site.members | where_exp: "member", "member.group == group" %}
         {% if group_members.size > 0 %}

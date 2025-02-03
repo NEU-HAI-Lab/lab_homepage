@@ -24,7 +24,7 @@ nav_order: 1
 }
 </style>
 
-{% assign groups = "Faculty,Postdoc,PhD Student,Visiting Scholar,Visiting Student,Research Assistant" | split: "," %}
+{% assign groups = "Faculty,Postdoc,PhD Student,Visiting Scholar,Visiting Student,Research Assistant,Alumni" | split: "," %}
 {% for group in groups %}
 {% assign group_members = site.members | where_exp: "member", "member.group == group" %}
 {% if group_members.size > 0 %}
