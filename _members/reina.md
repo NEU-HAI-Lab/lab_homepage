@@ -9,7 +9,7 @@ description:
 lastname: Chan
 publications:
 teaser: >
-  Hi, I am Reina. I am a Master’s student in Computer Science at Northeastern University. My research interests include Human-Computer Interaction, Human-AI collaboration, and accessible technology. My research focuses on developing and providing technology solutions that are not only accessible but also ensure enriching user experiences across different special population groups.
+  Reina (Szeyi) is a Master’s student in Computer Science at Northeastern University. Her research interest lies in human-AI interaction and accessible technology. 
 profile:
   name: Reina Chan
   align: right
@@ -18,7 +18,7 @@ profile:
   twitter: Reina_SzeyiChan
   github: SzeyiReinaChan
   email: chan.szey@northeastern.edu
-  website: https://www.szeyichan-reina.com/
+  website: https://szeyireinachan.github.io/
   orcid: 0009-0003-5132-5171
   address: >
     Khoury College of Computer Sciences<br />
