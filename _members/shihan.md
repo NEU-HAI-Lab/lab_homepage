@@ -5,7 +5,7 @@ group: PhD Student
 group_rank: 3
 team_frontpage: true
 
-title: Ph.D. Student
+title: PhD Student
 description:
 lastname: Fu
 

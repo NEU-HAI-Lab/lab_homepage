@@ -86,43 +86,8 @@ layout: default
     </h2>
 
     <div class="container">
-      <!-- Professor -->
-      <div class="row justify-content-center" style="padding-top: 20px">
-        {% assign professor = site.members | where:"group", "Faculty" | first %}
-        <div class="col-12 col-md-3 mb-3">
-          <a href="{{ professor.profile.website }}" class="no-decoration">
-            <div
-              class="card hoverable m-2 text-center team-card-long"
-              style="height: 250px"
-            >
-              <img
-                src="{{ professor.profile.image | default: '/assets/img/default-avatar.jpg' | prepend: '/assets/img/' | relative_url }}"
-                class="card-img-top mx-auto mt-4"
-                alt="{{ professor.profile.name }}"
-                style="
-                  height: 150px;
-                  width: 150px;
-                  object-fit: cover;
-                  border-radius: 50%;
-                "
-              />
-              <div class="card-body">
-                <h5
-                  class="card-title m-0"
-                  style="height: 50px; margin-top: 15px"
-                >
-                  {{ professor.profile.name }}
-                </h5>
-                <p class="card-text" style="margin-top: 5px">
-                  {{ professor.title }}
-                </p>
-              </div>
-            </div>
-          </a>
-        </div>
-      </div>
       <!-- {% assign groups = site.members | sort: "group_rank" | map: "group" | uniq | where_exp: "group", "group != 'EXAMPLE GROUP'" | where_exp: "group", "group != 'Faculty'" %} -->
-      {% assign groups = "Postdoc,PhD Student,Visiting Scholar,Visiting Student,Research Assistant,Alumni" | split: "," %}
+      {% assign groups = "Faculty,Postdoc,PhD Student,Visiting Scholar,Visiting Student,Research Assistant,Alumni" | split: "," %}
       {% for group in groups %}
         {% assign group_members = site.members | where_exp: "member", "member.group == group" %}
         {% if group_members.size > 0 %}

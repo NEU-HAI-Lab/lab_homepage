@@ -17,3 +17,67 @@
 "Yang":
   - firstname: ["Ziqi"]
     url: https://eugeniayang.github.io/
+
+"Wang":
+  - firstname: ["Dakuo"]
+    url: https://www.dakuowang.com/
+
+"Hendler":
+  - firstname: ["James", "Jim", "James A."]
+    url: https://en.wikipedia.org/wiki/James_Hendler
+
+"Xu":
+  - firstname: ["Xuhai", "Orson"]
+    url: https://orsonxu.com/
+
+"Jindal":
+  - firstname: ["Ishan"]
+    url: https://ijindal.github.io/
+
+"Popa":
+  - firstname: ["Lucian"]
+    url: https://research.ibm.com/people/lucian-popa
+
+"Katsis":
+  - firstname: ["Yannis"]
+    url: https://research.ibm.com/people/yannis-katsis
+
+"Sen":
+  - firstname: ["Prithviraj"]
+    url: https://scholar.google.com/citations?user=Ah5WCLwAAAAJ
+
+"Yu":
+  - firstname: ["Mo"]
+    url: https://sites.google.com/site/moyunlp/
+
+"Mou":
+  - firstname: ["Xiangyang"]
+    url: https://scholar.google.com/citations?user=goHiK4IAAAAJ
+
+"Chen":
+  - firstname: ["Hao"]
+    url: https://guangchen811.github.io/
+  - firstname: ["Guiming", "Hardy"]
+    url: https://g-h-chen.github.io/
+
+"Du":
+  - firstname: ["Lun"]
+    url: https://scholar.google.com/citations?user=3XUANDAAAAAJ
+
+"Li":
+  - firstname: ["Jiachen"]
+    url: https://www.jiachen-li.com/
+  - firstname: ["Toby", "Jia-Jun", "Toby Jia-Jun"]
+    url: https://toby.li/
+
+"Zou":
+  - firstname: ["Ruishi"]
+    url: https://motion115.github.io
+
+"Fu":
+  - firstname: ["Shihan"]
+    url: https://shihanfu.com/
+
+"Sun":
+  - firstname: ["Yuling"]
+    url: https://www.yulingsun.net/
