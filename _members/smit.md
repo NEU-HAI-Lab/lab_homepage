@@ -14,8 +14,6 @@ lastname: Desai # your last name
 teaser: >
  Conversational AI researcher exploring mental models to develop innovative technologies that support, rather than mimic, humans in need. Incoming Assistant Professor @ CAMD, with an affiliate appointment in Khoury CS.
 
-View Bio
-
 profile:
   name: Smit Desai #your fullname here
   align: right
