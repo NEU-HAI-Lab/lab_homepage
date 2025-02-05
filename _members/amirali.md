@@ -1,7 +1,7 @@
 ---
 layout: about
 inline: false
-group: Research Assistant
+group: Visiting Student
 group_rank: 0 # do not change this
 team_frontpage: true
 

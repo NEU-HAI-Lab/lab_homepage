@@ -87,12 +87,12 @@ layout: default
 
     <div class="container">
       <!-- {% assign groups = site.members | sort: "group_rank" | map: "group" | uniq | where_exp: "group", "group != 'EXAMPLE GROUP'" | where_exp: "group", "group != 'Faculty'" %} -->
-      {% assign groups = "Faculty,Postdoc,PhD Student,Visiting Scholar,Visiting Student,Research Assistant,Alumni" | split: "," %}
-      {% for group in groups %}
-        {% assign group_members = site.members | where_exp: "member", "member.group == group" %}
-        {% if group_members.size > 0 %}
-          <h2 style="text-align: center">{{ group }}</h2>
+      
+          <h2 style="text-align: center">Team Members</h2>
           <div class="row justify-content-center">
+
+          {% assign groups = "Faculty,Postdoc,PhD Student,Research Assistant" | split: "," %}
+          {% for group in groups %}
           {% assign members = site.members | where_exp: "member",
           "member.group == group" %} {% for member in members %}
           <div class="col-6 col-md-2 mb-3">
@@ -101,7 +101,7 @@ layout: default
               {% endif %}
               <div
                 class="card hoverable m-2 text-center team-card-short"
-                style="height: 250px"
+                style="height: 280px"
               >
                 <img
                   src="{{ member.profile.image | default: 'husky2.jpg' | prepend: '/assets/img/' | relative_url }}"
@@ -131,9 +131,102 @@ layout: default
             {% endif %}
           </div>
           {% endfor %}
+          {% endfor %}
         </div>
-        {% endif %}
-      {% endfor %}
+
+
+          <h2 style="text-align: center">Visiting Students and Scholars</h2>
+          <div class="row justify-content-center">
+
+          {% assign groups = "Visiting Scholar,Visiting Student" | split: "," %}
+          {% for group in groups %}
+          {% assign members = site.members | where_exp: "member",
+          "member.group == group" %} {% for member in members %}
+          <div class="col-6 col-md-2 mb-3">
+            {% if member.profile.website %}
+            <a href="{{ member.profile.website }}" class="no-decoration">
+              {% endif %}
+              <div
+                class="card hoverable m-2 text-center team-card-short"
+                style="height: 280px"
+              >
+                <img
+                  src="{{ member.profile.image | default: 'husky2.jpg' | prepend: '/assets/img/' | relative_url }}"
+                  class="card-img-top mx-auto mt-4"
+                  alt="{{ member.profile.name }}"
+                  style="
+                    height: 100px;
+                    width: 100px;
+                    object-fit: cover;
+                    border-radius: 50%;
+                  "
+                />
+                <div class="card-body">
+                  <h5
+                    class="card-title m-0"
+                    style="height: 50px; margin-top: 15px"
+                  >
+                    {{ member.profile.name }}
+                  </h5>
+                  <p class="card-text" style="margin-top: 5px">
+                    {{ member.title }}
+                  </p>
+                </div>
+              </div>
+              {% if member.profile.website %}
+            </a>
+            {% endif %}
+          </div>
+          {% endfor %}
+          {% endfor %}
+        </div>
+
+
+          <h2 style="text-align: center">Alumni</h2>
+          <div class="row justify-content-center">
+
+          {% assign groups = "Alumni" | split: "," %}
+          {% for group in groups %}
+          {% assign members = site.members | where_exp: "member",
+          "member.group == group" %} {% for member in members %}
+          <div class="col-6 col-md-2 mb-3">
+            {% if member.profile.website %}
+            <a href="{{ member.profile.website }}" class="no-decoration">
+              {% endif %}
+              <div
+                class="card hoverable m-2 text-center team-card-short"
+                style="height: 280px"
+              >
+                <img
+                  src="{{ member.profile.image | default: 'husky2.jpg' | prepend: '/assets/img/' | relative_url }}"
+                  class="card-img-top mx-auto mt-4"
+                  alt="{{ member.profile.name }}"
+                  style="
+                    height: 100px;
+                    width: 100px;
+                    object-fit: cover;
+                    border-radius: 50%;
+                  "
+                />
+                <div class="card-body">
+                  <h5
+                    class="card-title m-0"
+                    style="height: 50px; margin-top: 15px"
+                  >
+                    {{ member.profile.name }}
+                  </h5>
+                  <p class="card-text" style="margin-top: 5px">
+                    {{ member.title }}
+                  </p>
+                </div>
+              </div>
+              {% if member.profile.website %}
+            </a>
+            {% endif %}
+          </div>
+          {% endfor %}
+          {% endfor %}
+        </div>
     </div>
 
     <!-- Selected papers -->

@@ -1,11 +1,11 @@
 ---
 layout: about
 inline: false
-group: Research Assistant # One of the following: "Faculty", "Postdoc", "PhD Student", "Visiting Scholar/Student", "Research Assistant"
+group: Visiting Student # One of the following: "Faculty", "Postdoc", "PhD Student", "Visiting Scholar/Student", "Research Assistant"
 group_rank: 0 # do not change this
 team_frontpage: true
 
-title: Research Assistant
+title: PhD Student
 description:
 lastname: Wu # your last name 
 
