@@ -98,6 +98,9 @@
 
     <!-- Links/Buttons -->
     <div class="links">
+      {%- if entry.project %}
+      <a class="project btn btn-sm z-depth-0" role="button" href="/projects/{{entry.project}}/">Project</a>
+      {%- endif %} 
       {%- if entry.abstract %}
       <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
       {%- endif %} {%- if entry.arxiv %}
