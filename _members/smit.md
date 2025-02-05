@@ -18,13 +18,10 @@ profile:
   name: Smit Desai #your fullname here
   align: right
   image: /team/Smit.jpg
-  twitter: <your_twitter_handle> # leave blank if you don't have one
-  github: <your_github_handle> # leave blank if you don't have one
   email: sm.desai@northeastern.edu # leave blank if you don't have one
   website: https://smitdesai.net/ # leave blank if you don't have one
-  orcid: <your_orcid> # leave blank if you don't have one
   address: > # your address here, use Khoury College of Computer Sciences as the default
-    Khoury College of Computer Sciences<br />
-    440 Huntington Avenue, 310C West Village H<br />
+    Northeastern University<br />
+    271 Huntington Avenue, Room 226 H<br />
     Boston, MA 02115
 ---
