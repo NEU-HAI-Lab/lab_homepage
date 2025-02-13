@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Human-AI Collaboration for data annotation
+title: Human-AI Collaboration for Data Annotation
 description: a project with a background image
 img: assets/img/12.jpg
-importance: 1
-category: In Progress
+importance: 10
+category: In progress
 project_frontpage: true
 short_intro: Introduce AI into domain experts' daily workflow to boost their productivtiy.
 ---
