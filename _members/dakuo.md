@@ -21,7 +21,7 @@ profile:
   website: https://dakuowang.com
   orcid:
   address: >
-    College of Art, Media and Design<br />
-    360 Huntington Ave., Boston, Massachusetts 02115 <br />
-    USA
+    Khoury College of Computer Sciences<br />
+    440 Huntington Avenue, 310C West Village H<br />
+    Boston, MA 02115
 ---

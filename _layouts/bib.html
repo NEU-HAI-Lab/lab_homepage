@@ -3,18 +3,16 @@
 
 <!-- _layouts/bib.html -->
 <div class="row">
-  <div class="col-sm-2">
+  <div class="col-sm-2 publication-image-container">
     {%- if entry.img -%}
     <img
       src="{{ entry.img }}"
       class="publication-image"
-      alt="Description of the image"
     />
     {%- else -%}
     <img
       src="/assets/img/1.jpg"
       class="publication-image"
-      alt="Description of the image"
     />
     {%- endif -%}
   </div>

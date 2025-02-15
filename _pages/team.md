@@ -12,6 +12,14 @@ nav_order: 1
   width: 100%; 
   height: 200px; 
   object-fit: cover; 
+  position: relative;
+}
+.team-member-image:hover {
+    scale: 1.05;
+    z-index: 1000;
+    overflow: visible;
+    object-fit: cover;
+    transition: all 0.3s ease;
 }
 .card {
   margin: 1rem; 
