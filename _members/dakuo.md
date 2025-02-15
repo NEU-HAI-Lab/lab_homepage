@@ -14,7 +14,7 @@ teaser: >
 profile:
   name: Dakuo Wang
   align: right
-  image: 1.jpg
+  image: team/dakuo.jpg
   twitter:
   github:
   email:
