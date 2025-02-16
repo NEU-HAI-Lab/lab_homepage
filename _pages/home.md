@@ -20,6 +20,8 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
+test update
+
 <!-- <div style="float: left; width: 50%;">第一列</div>
 <div style="float: left; width: 50%;">第二列</div> -->
 
