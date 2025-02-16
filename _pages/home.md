@@ -20,11 +20,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
-test updatetest123123123123123123123123123321
-
-<!-- <div style="float: left; width: 50%;">第一列</div>
-<div style="float: left; width: 50%;">第二列</div> -->
-
+awudeqygrioakms;cjn eftvyhqru9diowa
 The Human-Centered AI Lab at Northeastern University is lead by Prof. [Dakuo Wang](https://www.dakuowang.com/).
 
 Prof. Dakuo Wang is an Associate Professor at Northeastern University, jointly appointed at Khoury College of Computer Sciences and the College of Arts, Media and Design. His research lies at the intersection of human-computer interaction (HCI) and artificial intelligence (AI), with a focus on the exploration, development, and evaluation of human-centered AI (HCAI) systems. The overarching goal is to democratize AI for every person and every organization, so that they can access their own AI and collaborate with these real-world AI systems (human-AI collaboration).
