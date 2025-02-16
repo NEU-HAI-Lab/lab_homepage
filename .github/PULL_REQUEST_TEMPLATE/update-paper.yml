@@ -1,0 +1,17 @@
+name: Update Paper
+description: Template for updating paper information
+title: "[Update Paper]: "
+labels: ["update", "paper"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for your contribution! Please fill out the following information to help us understand your update.
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Provide a detailed description of the paper changes.
+      placeholder: Describe your changes here.
+    validations:
+      required: true 
