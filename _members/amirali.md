@@ -5,12 +5,12 @@ group: Visiting Student
 group_rank: 0 # do not change this
 team_frontpage: true
 
-title: Research Assistant
+title: Visiting Student
 description:
 lastname: Amini
 
 teaser: >
-  Amirali Amini is a senior Computer Science student at the University of Tehran and a Research Assistant at NeuHAI. His research focuses on NLP and Human-Computer Interaction for healthcare, with a passion for designing user-centered AI systems and improving healthcare accessibility.
+  Amirali Amini is a senior Computer Science student at the University of Tehran and a Research Assistant at NEU HAI. His research focuses on NLP and Human-Computer Interaction for healthcare, with a passion for designing user-centered AI systems and improving healthcare accessibility.
 profile:
   name: AmirAli Amini
   align: right

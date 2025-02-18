@@ -5,7 +5,7 @@ group: Visiting Student
 group_rank: 0 # do not change this
 team_frontpage: true
 
-title: Research Assistant
+title: Visiting Student
 description:
 lastname: Li
 

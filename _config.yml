@@ -2,10 +2,10 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Northeastern Human-Centered AI Lab # the website title (if blank, full name will be used instead)
+title: Northeastern University Human-Centered Artificial Intelligence Lab (NEU HAI) # the website title (if blank, full name will be used instead)
 first_name:
 middle_name:
-last_name: Northeastern Human-Centered AI Lab
+last_name: Northeastern University Human-Centered Artificial Intelligence Lab
 email:
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Northeastern Human-Centered AI Lab.
