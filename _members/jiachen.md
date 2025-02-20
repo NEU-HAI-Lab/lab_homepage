@@ -19,7 +19,7 @@ profile:
   twitter: JasmineJiachenL
   github:
   email: li.jiachen4@northeastern.edu
-  website: jiachen-li.com
+  website: https://jiachen-li.com
   orcid:
   address: >
     Khoury College of Computer Sciences<br />
