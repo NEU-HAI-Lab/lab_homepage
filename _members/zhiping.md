@@ -10,7 +10,7 @@ description:
 lastname: Zhang
 
 teaser: >
-  Zhiping is a research assistant advised by Prof. Tianshi Li and Prof. Dakuo Wang. She is passionate about designing and researching AI agents and social robotics, aiming to argument human capacities, particularly in realms of health and wellbeing aspects. She approaches complex questions using various human-centered design methods and strategies, including mixed methods and Research through Design, to understand how people interact with agents and how to create agents that truly benefit people.
+Zhiping is a PhD student at Northeastern University advised by Prof. Tianshi Li. She is working on human-centered privacy research on language models and AI agentics systems.
 
 profile:
   name: Zhiping Zhang #your fullname here
