@@ -10,7 +10,7 @@ description:
 lastname: Zhang
 
 teaser: >
-Zhiping is a PhD student at Northeastern University advised by Prof. Tianshi Li. She is working on human-centered privacy research on language models and AI agentics systems.
+  Zhiping is a PhD student at Northeastern University advised by Prof. Tianshi Li. She is working on human-centered privacy research on language models and AI agentics systems.
 
 profile:
   name: Zhiping Zhang #your fullname here
