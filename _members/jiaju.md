@@ -18,7 +18,7 @@ profile:
   twitter: JiajuChen13 # leave blank if you don't have one
   github: malcolm-chen # leave blank if you don't have one
   email: jiajuchen89@gmail.com # leave blank if you don't have one
-  website: # leave blank if you don't have one
+  website: https://malcolm-chen.github.io/
   orcid: 0009-0005-9598-5838 # leave blank if you don't have one
   address: > # your address here, use Khoury College of Computer Sciences as the default
     Khoury College of Computer Sciences<br />
