@@ -14,13 +14,13 @@ I will regularly go over the applications and contact you if we find you fit our
 
 You don't have to send me another email, as the form will generate one automatically.
 
-- I have **four** Ph.D positions in Fall 2024.
+- I have **five** Ph.D positions in Fall 2025 (admission has completed).
 - I have open positions for **postdocs** and **visiting scholars**.
 - For **prospective PhD students**, please submit the official application through Northeastern Application Website, and I will contact candidate students for a zoom interview around February and March. **You do not need to fill in this form unless you have additional information you want to provide.**
 - For **prospective summer research interns**, please send your application through this form by **Apr. 1st**. I am looking for students who are able and willing to lead a summer project. I will contact candidate students for a zoom interview before May.
 - For **prospective spring/fall term research interns**, please send your application through this form by **Dec. 1st/Aug.1st**, correspondingly. I will contact candidate students within a month after the deadline.
 
-If you have trouble in submitting the form, please send it to <a href="mailto:neuhcai@gmail.com">neuhcai@gmail.com</a> .
+If you have trouble in submitting the form, please send it to <a href="mailto:d.wang@northeastern.edu">d.wang@northeastern.edu</a> .
 
 <div style="padding-top: 40px;">
     <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScmKKAA4LZaXtI2CQ76NsNsytSvBDJfGA-z3k0lurTB_O_cXw/viewform?embedded=true" width="770" height="800" frameborder="0" marginheight="0" marginwidth="0" align="middle">loading…</iframe>
