@@ -14,7 +14,7 @@ teaser: >
 profile:
   name: Bo Sun
   align: right
-  image: /team/<your_image_name>.png
+  image: /team/bo.png
   twitter: 
   github: qianxi66
   email: bo.sun@northeastern.edu
